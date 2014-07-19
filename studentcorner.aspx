@@ -1,12 +1,10 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="studentcorner.aspx.cs" Inherits="Default2" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
-    <asp:ContentPlaceHolder id="head" runat="server">
-    </asp:ContentPlaceHolder>
      <link rel="stylesheet" type="text/css" href="css/plusslider.css" />
  <style>
         /* Custom Slider Styling */
@@ -40,36 +38,34 @@
 </head>
 <body>
     <form id="form1" runat="server">
-     <div id="page-wrap">
+    <div><div id="page-wrap">
         <div id="content">
             <h1>Bharti Vidyapeeth College of Engineering</h1>
-            <p style="font-family: NSimSun; font-size: x-large; font-weight: normal;">EEE 
-                Department</p>
+            <p style="font-family: NSimSun; font-size: x-large; font-weight: normal;">
+                <asp:SiteMapPath ID="SiteMapPath1" runat="server">
+                </asp:SiteMapPath>
+            </p>
           
             
             
         </div>
     </div>
-     <div id="Div6" 
-         
-         style="background-color: #C0C0C0; color: #FFFFFF; font-size: large; font-weight: 300; text-decoration: blink;">
+     <div id="Div6" style="background-color: #C0C0C0; color: #FFFFFF; font-size: large; font-weight: 300; text-decoration: blink;">
                 &nbsp;&nbsp;<asp:LinkButton ID="LinkButton1" runat="server" ForeColor="Gray" 
-                    onclick="LinkButton1_Click">About Us</asp:LinkButton>
+                    onclick="LinkButton1_Click" PostBackUrl="~/sachievement.aspx">Achievements</asp:LinkButton>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <asp:LinkButton ID="LinkButton2" runat="server" onclick="LinkButton2_Click" 
-                    ForeColor="Gray">HOD</asp:LinkButton>
+                    ForeColor="Gray">Lesson Plan</asp:LinkButton>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <asp:LinkButton ID="LinkButton4" runat="server" ForeColor="Gray">Faculty</asp:LinkButton>
+                <asp:LinkButton ID="LinkButton4" runat="server" ForeColor="Gray">Assignments</asp:LinkButton>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <asp:LinkButton ID="LinkButton6" runat="server" ForeColor="Gray">Students</asp:LinkButton>
+                <asp:LinkButton ID="LinkButton6" runat="server" ForeColor="Gray">Notes</asp:LinkButton>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <asp:LinkButton ID="LinkButton7" runat="server" ForeColor="Gray">Gallery</asp:LinkButton>
+                <asp:LinkButton ID="LinkButton7" runat="server" ForeColor="Gray">Placements</asp:LinkButton>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <asp:LinkButton ID="LinkButton8" runat="server" Height="19px" 
-                    style="margin-top: 12px" Width="54px" ForeColor="Gray">Events</asp:LinkButton>
-                <asp:LinkButton ID="LinkButton9" runat="server" Width="54px" ForeColor="Gray">Projects</asp:LinkButton>
+                <asp:LinkButton ID="LinkButton9" runat="server" Width="54px" ForeColor="Gray">Time Table</asp:LinkButton>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <asp:LinkButton ID="LinkButton10" runat="server" Width="54px" ForeColor="Gray">Alumni</asp:LinkButton>
+                <asp:LinkButton ID="LinkButton10" runat="server" Width="54px" ForeColor="Gray">Virtual labs</asp:LinkButton>
                 <br />
             </div>
    
@@ -94,11 +90,9 @@
         <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
         College Of Engineering&nbsp;&nbsp; <br /> <br /> <br /> <br />
-        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
-        </asp:ContentPlaceHolder>
+    </div>
+    
     </div>
     </form>
-    <p>
-        &nbsp;</p>
 </body>
 </html>

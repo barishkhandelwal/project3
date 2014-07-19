@@ -23,7 +23,7 @@
         .plusslider.slider3, .plusslider.slider3 .plusslider-pagination-wrapper { border: none; border-radius: 0; }
         body { background: #020849; color: #fff; font: 14px Verdana, sans-serif; }
         h1 { font: 40px/20px Arial, serif; text-align: left; }
-        #nav{border:0px solid
+        #nav{border:5px solid
              rgba(255,255,255,0.3);}
         #page-wrap { margin: 0 auto; max-width: 1268px; }
         #features h2 { margin: 20px 0 10px 0; font: 36px Georgia, serif; text-align: left; }
@@ -44,25 +44,24 @@
      <div id="page-wrap">
         <div id="content">
             <h1>Bharti Vidyapeeth College of Engineering</h1>
-            <div id="nav" style="background-color: #FFCC99; font-size: large;">
+            <div id="nav" style="background-color: #C0C0C0; font-size: large;" >
 
 &nbsp;<br />
                 <asp:LinkButton ID="LinkButton1" runat="server" ForeColor="Gray" 
                     onclick="LinkButton1_Click1">About Us</asp:LinkButton>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <asp:LinkButton ID="LinkButton2" runat="server" ForeColor="Gray">HOD</asp:LinkButton>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <asp:LinkButton ID="LinkButton3" runat="server" ForeColor="Gray">Faculty</asp:LinkButton>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;<asp:LinkButton ID="LinkButton6" 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <asp:LinkButton ID="LinkButton6" 
                     runat="server" ForeColor="Gray">Students</asp:LinkButton>
-                &nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <asp:LinkButton ID="LinkButton5" runat="server" ForeColor="Gray">Gallery</asp:LinkButton>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <asp:LinkButton ID="LinkButton7" runat="server" ForeColor="Gray">Events</asp:LinkButton>
-&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <asp:LinkButton ID="LinkButton8" runat="server" ForeColor="Gray">Projects</asp:LinkButton>
-&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <asp:LinkButton ID="LinkButton9" runat="server" ForeColor="Gray">Alumni</asp:LinkButton>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>     
     
@@ -105,11 +104,11 @@
 
         });
     </script>
-        <div id="Div1" style="background-color: #FFFFFF; font-size: x-large;">
+        <div id="Div1" style="background-color: #C0C0C0; font-size: x-large;">
     
     
         &nbsp;
-          <br />  <br />  <br />  <br />  <br />  <br />  <br />  <br />  <br />  <br />  <br />  <br />  <br /><br /><br /><br />  <br />  <br /><br />  <br />  <br />  <br />  <br />  <br />  <br />  <br />  <br />  <br />  <br />  <br />
+            <br />  <br />  <br />  <br />  <br />  <br />  <br />  <br />  <br />  <br />  <br />  <br /><br /><br /><br />  <br />  <br /><br />  <br />  <br />  <br />  <br />  <br />  <br />  <br />  <br />  <br />  <br />  <br />
  
     
    </div>
@@ -131,6 +130,6 @@
     </form>
     <p>
         &nbsp;</p>
-        </form>
+       
 </body>
 </html>
