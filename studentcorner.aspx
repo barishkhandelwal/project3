@@ -51,25 +51,24 @@
         </div>
     </div>
      <div id="Div6" style="background-color: #C0C0C0; color: #FFFFFF; font-size: large; font-weight: 300; text-decoration: blink;">
-                &nbsp;&nbsp;<asp:LinkButton 
-                    ID="LinkButton14" runat="server" Font-Size="Large" ForeColor="#666666" 
-                    PostBackUrl="~/sachievement.aspx">Achievements</asp:LinkButton>
+                &nbsp;<asp:LinkButton 
+                    ID="LinkButton1" runat="server" ForeColor="Gray" onclick="LinkButton1_Click1">About Us</asp:LinkButton>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <asp:LinkButton ID="LinkButton15" runat="server" Font-Size="Large" 
-                    ForeColor="#666666" PostBackUrl="~/lessonplan.aspx">Lesson Plan</asp:LinkButton>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <asp:LinkButton ID="LinkButton16" runat="server" Font-Size="Large" 
-                    ForeColor="#666666" PostBackUrl="~/assignment.aspx">Assignments</asp:LinkButton>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <asp:LinkButton ID="LinkButton17" runat="server" Font-Size="Large" 
-                    ForeColor="#666666" PostBackUrl="~/notes.aspx">Notes</asp:LinkButton>
+                <asp:LinkButton ID="LinkButton2" runat="server" ForeColor="Gray">HOD</asp:LinkButton>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <asp:LinkButton ID="LinkButton18" runat="server" Font-Size="Large" 
-                    ForeColor="#666666" PostBackUrl="~/timetable.aspx">Time-Table</asp:LinkButton>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <asp:LinkButton ID="LinkButton19" runat="server" Font-Size="Large" 
-                    ForeColor="#666666" PostBackUrl="~/vlab.aspx">Vlab</asp:LinkButton>
-                <br />
+                <asp:LinkButton ID="LinkButton3" runat="server" ForeColor="Gray">Faculty</asp:LinkButton>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:LinkButton ID="LinkButton6" runat="server" ForeColor="Gray" 
+                    PostBackUrl="~/studentcorner.aspx">Students</asp:LinkButton>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:LinkButton ID="LinkButton5" runat="server" ForeColor="Gray">Gallery</asp:LinkButton>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:LinkButton ID="LinkButton7" runat="server" ForeColor="Gray">Events</asp:LinkButton>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:LinkButton ID="LinkButton8" runat="server" ForeColor="Gray">Projects</asp:LinkButton>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:LinkButton ID="LinkButton9" runat="server" ForeColor="Gray">Alumni</asp:LinkButton>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </div>
    
     <div id="Div1" 
