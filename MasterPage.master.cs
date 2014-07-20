@@ -18,5 +18,10 @@ public partial class MasterPage : System.Web.UI.MasterPage
     protected void LinkButton1_Click(object sender, EventArgs e)
     {
 
+
+    }
+    protected void LinkButton4_Click(object sender, EventArgs e)
+    {
+        
     }
 }

@@ -44,7 +44,7 @@
      <div id="page-wrap">
         <div id="content">
             <h1>Bharti Vidyapeeth College of Engineering</h1>
-            <div id="nav" style="background-color: #C0C0C0; font-size: large;" >
+            <div id="nav" style="background-color: #FFCC99; font-size: large;" >
 
 &nbsp;<br />
                 <asp:LinkButton ID="LinkButton1" runat="server" ForeColor="Gray" 
