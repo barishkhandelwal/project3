@@ -103,27 +103,7 @@
             style="font-size: large; color: #000080">
             23.Aman Garg,II year,Event Coordinator at BVET Event &quot;Mock Stock&quot;.<p 
             style="font-size: large; color: #000080">
-            &nbsp;<p style="font-size: large; color: #000080">
-            &nbsp;<p style="font-size: large; color: #000080">
-            &nbsp;<p style="font-size: large; color: #000080">
-            &nbsp;<p style="font-size: large; color: #000080">
-            &nbsp;<p style="font-size: large; color: #000080">
-            &nbsp;<p style="font-size: large; color: #000080">
-            &nbsp;<p style="font-size: large; color: #000080">
-            &nbsp;<p style="font-size: large; color: #000080">
-            &nbsp;<p style="font-size: large; color: #000080">
-            &nbsp;<p style="font-size: large; color: #000080">
-            &nbsp;<p style="font-size: large; color: #000080">
-            &nbsp;<p style="font-size: large; color: #000080">
-            &nbsp;<p style="font-size: large; color: #000080">
-            &nbsp;<p style="font-size: large; color: #000080">
-            &nbsp;<p style="font-size: large; color: #000080">
-            &nbsp;<p style="font-size: large; color: #000080">
-            &nbsp;<p style="font-size: large; color: #000080">
-            &nbsp;<p style="font-size: large; color: #000080">
             &nbsp;<br />
-        <br />
-        <br />
             </div> <div style="font-size: medium; color: #FFFFFF; font-family: Arial, Helvetica, sans-serif;">
      <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
         Bharati Vidyapeeth&#39;s&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

@@ -53,8 +53,9 @@
                 <asp:LinkButton ID="LinkButton2" runat="server" ForeColor="Gray">HOD</asp:LinkButton>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <asp:LinkButton ID="LinkButton3" runat="server" ForeColor="Gray">Faculty</asp:LinkButton>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <asp:LinkButton ID="LinkButton6" 
-                    runat="server" ForeColor="Gray">Students</asp:LinkButton>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                <asp:LinkButton ID="LinkButton6" 
+                    runat="server" ForeColor="Gray" PostBackUrl="~/studentcorner.aspx">Students</asp:LinkButton>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <asp:LinkButton ID="LinkButton5" runat="server" ForeColor="Gray">Gallery</asp:LinkButton>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
