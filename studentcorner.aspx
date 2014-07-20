@@ -6,7 +6,8 @@
             Orientation="Horizontal" PathSeparator="&gt;" RenderingMode="Table">
             <Items>
                 <asp:MenuItem Text="Student Corner" Value="Student Corner">
-                    <asp:MenuItem Text="Achievements" Value="Achievements"></asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/sachievement.aspx" Text="Achievements" 
+                        Value="Achievements"></asp:MenuItem>
                     <asp:MenuItem Text="Lesson Plan" Value="Lesson Plan">
                         <asp:MenuItem Text="I Sem" Value="I Sem"></asp:MenuItem>
                         <asp:MenuItem Text="II Sem" Value="II Sem"></asp:MenuItem>
