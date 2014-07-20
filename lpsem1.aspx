@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="Default2.aspx.cs" Inherits="Default2" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="lpsem1.aspx.cs" Inherits="Default2" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 <div style="font-size: medium; color: #000000; background-color: #FFFFFF">
@@ -6,37 +6,41 @@
     <br />
     List of theory papers:<br />
     <br />
-    <a href="maths1.docx">math</a>
+    
     ETMA 101&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <asp:LinkButton ID="LinkButton14" runat="server" PostBackUrl="~/maths1.docx">Applied Mathmatics-I</asp:LinkButton>
+    <a href="maths1.docx">Applied Mathmatics-I</a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <br />
     <br />
     ETPH 103&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-    <asp:LinkButton ID="LinkButton15" runat="server">Applied Physics-I</asp:LinkButton>
+   <a href="">Applied Physics-I</a>
     <br />
     <br />
     ETCH 105&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <asp:LinkButton ID="LinkButton16" runat="server">Applied Chemistry-I</asp:LinkButton>
+    <a href="">Applied Chemistry-I</a>
     <br />
     <br />
     ETME 107&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <asp:LinkButton ID="LinkButton17" runat="server">Manufacturing Process</asp:LinkButton>
+    <a href="">Manufacturing Process</a>
     <br />
     <br />
     ETCS 109&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <asp:LinkButton ID="LinkButton18" runat="server">Introduction to Computers and Auto CAD</asp:LinkButton>
+    <a href="">Introduction to Computers and Auto CAD</a>
     <br />
     <br />
     ETEL 111&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <asp:LinkButton ID="LinkButton19" runat="server">Communication Skills-I</asp:LinkButton>
+    <a href="">Communication Skills-I</a>
     <br />
     <br />
     ETEL 113&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <asp:LinkButton ID="LinkButton20" runat="server">Impact of Science and Technology on Society</asp:LinkButton>
+    <a href="">Impact of Science and Technology on Society</a>
     <br />
     <br />
     <br />
+    <br />
+    <br />
+    <asp:SiteMapPath ID="SiteMapPath1" runat="server">
+    </asp:SiteMapPath>
     <br />
 </div>
 </asp:Content>

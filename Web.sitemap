@@ -5,7 +5,19 @@
           <siteMapNode url="~/sachievements.aspx" title="Achievements"  description="" />
           <siteMapNode url="~/vlab.aspx" title="Virtual labs"  description="" />
           <siteMapNode url="~/timetable.aspx" title="Time-Table"  description="" />
+          <siteMapNode url="" title="Lesson Plan"  description="" >
+            <siteMapNode url="~/lpsem1.aspx" title="I Sem"  description="" />
+            <siteMapNode url="~/lpsem2.aspx" title="II Sem"  description="" />
+            <siteMapNode url="~/lpsem3.aspx" title="III Sem"  description="" />
+            <siteMapNode url="~/lpsem4.aspx" title="IV Sem"  description="" />
+            <siteMapNode url="~/lpsem5.aspx" title="V Sem"  description="" />
+            <siteMapNode url="~/lpsem6.aspx" title="VI Sem"  description="" />
+            <siteMapNode url="~/lpsem7.aspx" title="VII Sem"  description="" />
+            <siteMapNode url="~/lpsem8.aspx" title="VIII Sem"  description="" />
 
+
+
+          </siteMapNode>
 
         </siteMapNode>
 

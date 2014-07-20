@@ -5,18 +5,19 @@
         <asp:Menu ID="Menu1" runat="server" Font-Underline="True" ForeColor="Black" 
             Orientation="Horizontal" PathSeparator="&gt;" RenderingMode="Table">
             <Items>
-                <asp:MenuItem Text="Student Corner" Value="Student Corner">
+                <asp:MenuItem Text="Student Corner" Value="Student Corner" 
+                    NavigateUrl="~/studentcorner.aspx">
                     <asp:MenuItem NavigateUrl="~/sachievements.aspx" Text="Achievements" 
                         Value="Achievements"></asp:MenuItem>
                     <asp:MenuItem Text="Lesson Plan" Value="Lesson Plan">
-                        <asp:MenuItem Text="I Sem" Value="I Sem"></asp:MenuItem>
-                        <asp:MenuItem Text="II Sem" Value="II Sem"></asp:MenuItem>
-                        <asp:MenuItem Text="III Sem" Value="New Item"></asp:MenuItem>
-                        <asp:MenuItem Text="IV Sem" Value="New Item"></asp:MenuItem>
-                        <asp:MenuItem Text="V Sem" Value="New Item"></asp:MenuItem>
-                        <asp:MenuItem Text="VI Sem" Value="New Item"></asp:MenuItem>
-                        <asp:MenuItem Text="VII Sem" Value="New Item"></asp:MenuItem>
-                        <asp:MenuItem Text="VIII Sem" Value="New Item"></asp:MenuItem>
+                        <asp:MenuItem Text="I Sem" Value="I Sem" NavigateUrl="~/lpsem1.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="II Sem" Value="II Sem" NavigateUrl="~/lpsem2.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="III Sem" Value="New Item" NavigateUrl="~/lpsem3.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="IV Sem" Value="New Item" NavigateUrl="~/lpsem4.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="V Sem" Value="New Item" NavigateUrl="~/lpsem5.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="VI Sem" Value="New Item" NavigateUrl="~/lpsem6.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="VII Sem" Value="New Item" NavigateUrl="~/lpsem7.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="VIII Sem" Value="New Item" NavigateUrl="~/lpsem8.aspx"></asp:MenuItem>
                     </asp:MenuItem>
                     <asp:MenuItem Text="Assignments" Value="Assignments">
                         <asp:MenuItem Text="I Sem" Value="New Item"></asp:MenuItem>
@@ -63,15 +64,6 @@
         <br />
         <asp:SiteMapPath ID="SiteMapPath1" runat="server">
         </asp:SiteMapPath>
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
         <br />
         <br />
         <br />
